@@ -1,6 +1,6 @@
 Array.prototype.forEach2 = function(callback) {
-    for (let i = 0; 0 < this.length; i++) {
-        callback(this[i], i , this)
+    for (let i = 0; i < this.length; i++) {
+        callback(this[i], i , this) // valor atual, indice atual, array
     }
 }
 
