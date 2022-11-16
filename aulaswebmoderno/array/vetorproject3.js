@@ -10,11 +10,13 @@ console.log(`Elemento removido: ${dequeue}`)
 //retorna numeros de elementos
 let numeroElementos = enqueue
 console.log(`Numeros de Elementos da pilha: ${numeroElementos.length}`)
-for (let i = 0; i < numeroElementos.length; ++1;)
-console.log(numeroElementos)
 
-// Adicionar em uma posição especificada
-enqueue.splice(7, 8)
-console.log(enqueue); 
+// Adicionar em uma posição especificada ou deletar
+enqueue.splice(1, 0, '25')
+console.log(enqueue);
+
+enqueue.splice(0,2)
+console.log(enqueue);
+
 
 
