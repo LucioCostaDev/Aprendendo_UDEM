@@ -1,3 +1,11 @@
-aprovados[3] = 'Paulo' // forma simples de alterar um indice
-aprovados.push('Abia') // alterando ou adicionando indice ultilizando o push 
-console.log(aprovados.length)
+
+
+let enqueue = new Array ('Bia', 'Carlos', 'Ana')
+console.log(enqueue)
+
+aprovados = ['Bia', 'Carlos', 'Ana']
+console.log(enqueue   [0]) // todo indice [0] e iniciado como zero
+console.log(enqueue   [1])
+console.log(enqueue   [2])
+console.log(enqueue   [3])
+
